@@ -1,0 +1,12 @@
+for (var count = 0; count < 5; count++) {
+  moveForward();
+}
+moveForward();
+turnRight();
+turnLeft();
+for (var count2 = 0; count2 < 5; count2++) {
+  turnRight();
+}
+moveForward();
+for (var count3 = 0; count3 < 5; count3++) {
+  moveForward();robot.forward();
